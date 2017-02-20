@@ -67,7 +67,7 @@ public class Application {
 
         //10. posortuj po salary
         System.out.println("Posortuj po salary");
-        employeeList.sort((e1, e2) -> e1.getSalary() > e2.getSalary() ? 1 : -1);
+        employeeList.sort((e1, e2) -> e1.getSalary() > e2.getSalary() ? 1 : -1);    //
         employeeList.forEach(e -> System.out.println(e.getFirstName() + ": " + e.getSalary()));
         System.out.println();
 
